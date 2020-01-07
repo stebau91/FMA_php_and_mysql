@@ -1,0 +1,35 @@
+h1, p, th, td, tr, div {
+    font-family: verdana;
+    color: #fff;
+}
+
+html {
+    background-color: rgb(34, 34, 34);
+}
+
+h1, p {
+    text-align: center;
+}
+
+.formSection {
+    text-align: center
+}
+
+.formSection div {
+    margin: 10px 0px;
+}
+
+.sibmitBtn {
+    text-align: center;
+    margin: 20px 0px;
+}
+
+table {
+    width: 33%;
+    display: inline-block;
+    margin: 40px 0px;
+}
+
+.returnBack img {
+    margin-left: 30%;
+}

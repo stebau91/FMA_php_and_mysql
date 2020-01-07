@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS `images`(
+    `ID`  int(11) NOT NULL AUTO_INCREMENT,
+    `TITLE` varchar(255) NOT NULL DEFAULT '',
+    `FILEPATH` varchar(255) NOT NULL DEFAULT '',
+    `DESCRIPTION` text,
+    `WIDTH` int,
+    `HEIGHT` int,
+    PRIMARY KEY (ID)
+)ENGINE=InnoDB DEFAULT CHARSET=latin1;
